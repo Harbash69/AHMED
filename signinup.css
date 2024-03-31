@@ -32,20 +32,6 @@ body {
     background-size: cover;
 }
 
-footer {
-    background-color: black;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    color: #071357;
-    font-size: 12px;
-}
 
 h1 {
     font-family: 'Noto Serif', serif;
@@ -56,7 +42,7 @@ h1 {
 p {
     font-size: 14px;
     text-align: center;
-    color: rgb(200, 200, 200);
+    color: #071357;
 }
 
 hr {
@@ -476,6 +462,7 @@ input:active+label {
 
     .signInContent p {
         display: none;
+        color: #071357;
     }
 
     hr {
@@ -542,6 +529,7 @@ input:active+label {
 
     .signUpContent p {
         display: none;
+        color: #071357;
     }
 
     hr {
