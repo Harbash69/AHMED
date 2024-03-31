@@ -139,45 +139,53 @@ nav {
     font-weight: normal;
     font-size: 36px;
     margin-bottom: 20px;
+    color: #071357;
 }
 
 .pricing {
     font-weight: normal;
     font-size: 96px;
+        color: #0e2292;
 }
 
 .pricing .small {
     font-size: 16px;
+    color: #0e2292;
 }
 
 hr {
     margin-top: 70px;
+    color: #132dc2;
 }
 
 .features {
     margin: 40px 0;
     list-style-position: inside;
+    color: #132dc2;
 }
 
 .features li {
     padding-bottom: 10px;
+    color: #000000;
 }
 
 a.cta_btn {
     width: 100%;
     display: inline-block;
     text-align: center;
-    background: rgba(21, 23, 24, 0.7);
+    background: rgb(163, 220, 249);
     border-radius: 29px;
     padding: 20px 0;
-    color: white;
+    color: rgb(5, 4, 64);
     text-decoration: none;
     letter-spacing: 2px;
     transition: background .3s ease;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a.cta_btn:hover {
-    background: #000;
+    background: #090773;
 }
 
 .link {
@@ -236,6 +244,7 @@ a.cta_btn:hover {
     .card_title {
         font-size: 24px;
         margin-bottom: 12px;
+        color: #000;
     }
 
     .pricing {
@@ -287,7 +296,7 @@ a.cta_btn:hover {
     transform: translate(-60%, -50%);
     font-size: 8rem;
     font-weight: 600;
-    color: var(--white);
+    color: darkblue;
     opacity: 0.1;
     z-index: -1;
 }
