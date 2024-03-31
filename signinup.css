@@ -28,6 +28,8 @@ body {
     align-items: center;
     height: 100vh;
     background: #E3E3E3;
+    background-image: url('./assets/sign.jpg');
+    background-size: cover;
 }
 
 footer {
@@ -41,7 +43,7 @@ footer {
 }
 
 footer p {
-    color: #dd8d38;
+    color: #071357;
     font-size: 12px;
 }
 
@@ -61,7 +63,7 @@ hr {
     display: block;
     height: 3px;
     border: 0;
-    border-top: 3px solid #dd8d38;
+    border-top: 3px solid #071357;
     margin: 0px 0px 135px 0px;
     padding: 0;
     width: 50px;
@@ -82,12 +84,12 @@ a {
 .socialIcons {
     margin: 30px 0;
     text-align: center;
-    color: #dd8d38;
+    color: #071357;
 }
 
 .socialIcons a {
-    border: 1px solid #dd8d38;
-    color: #dd8d38;
+    border: 1px solid #071357;
+    color: #071357;
     border-radius: 15%;
     display: inline-flex;
     justify-content: center;
@@ -99,7 +101,7 @@ a {
 }
 
 .socialIcons a:hover {
-    background-color: #dd8d38;
+    background-color: #071357;
     color: white;
     transition: all .5s ease-out;
 }
@@ -122,13 +124,10 @@ a {
     z-index: 1;
 }
 
-.heroSignInBackground {
-    background: url("https://images.unsplash.com/photo-1523567830207-96731740fa71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
-    background-size: cover;
-}
+
 
 .heroSignInBackgroundOverlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 119, 255, 0.45);
 }
 
 .containerHeroSignIn {
@@ -162,11 +161,11 @@ a {
     border-radius: 50px;
     width: 150px;
     height: 40px;
-    background: linear-gradient(to right, #dd8d38 50%, white 50%);
+    background: linear-gradient(to right, #071357 50%, white 50%);
     background-size: 200% 100%;
     background-position: right top;
     transition: all .3s ease-out;
-    color: #dd8d38;
+    color: #071357;
 }
 
 .buttonHeroSignIn:hover {
@@ -214,7 +213,7 @@ input {
 }
 
 input:focus {
-    border-color: #dd8d38;
+    border-color: #071357;
 }
 
 textarea:focus,
@@ -226,7 +225,7 @@ input:focus {
 input,
 select,
 textarea {
-    color: #dd8d38;
+    color: #071357;
 }
 
 input:focus+label,
@@ -244,12 +243,12 @@ input:active+label {
 
 .buttonFormSignUp {
     font-size: 14px;
-    border: 2px solid #dd8d38;
+    border: 2px solid #071357;
     color: white;
     border-radius: 50px;
     width: 150px;
     height: 40px;
-    background: linear-gradient(to right, white 50%, #dd8d38 50%);
+    background: linear-gradient(to right, white 50%, #071357 50%);
     background-size: 200% 100%;
     background-position: right top;
     transition: all .3s ease-out;
@@ -257,7 +256,7 @@ input:active+label {
 
 .buttonFormSignUp:hover {
     cursor: pointer;
-    color: #dd8d38;
+    color: #071357;
     background-position: left bottom;
 }
 
@@ -290,13 +289,10 @@ input:active+label {
     opacity: 0;
 }
 
-.heroSignUpBackground {
-    background: url("https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
-    background-size: cover;
-}
+
 
 .heroSignUpBackgroundOverlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 119, 255, 0.45);
     height: 100%;
     width: 100%;
 }
@@ -332,11 +328,11 @@ input:active+label {
     border-radius: 50px;
     width: 150px;
     height: 40px;
-    background: linear-gradient(to right, #dd8d38 50%, white 50%);
+    background: linear-gradient(to right, #071357 50%, white 50%);
     background-size: 200% 100%;
     background-position: right top;
     transition: all .3s ease-out;
-    color: #dd8d38;
+    color: #071357;
 }
 
 .buttonHeroSignUp:hover {
@@ -384,7 +380,7 @@ input {
 }
 
 input:focus {
-    border-color: #dd8d38;
+    border-color: #071357;
 }
 
 textarea:focus,
@@ -396,7 +392,7 @@ input:focus {
 input,
 select,
 textarea {
-    color: #dd8d38;
+    color: #071357;
 }
 
 input:focus+label,
@@ -414,12 +410,12 @@ input:active+label {
 
 .buttonFormSignIn {
     font-size: 14px;
-    border: 2px solid #dd8d38;
+    border: 2px solid #071357;
     color: white;
     border-radius: 50px;
     width: 150px;
     height: 40px;
-    background: linear-gradient(to right, white 50%, #dd8d38 50%);
+    background: linear-gradient(to right, white 50%, #071357 50%);
     background-size: 200% 100%;
     background-position: right top;
     transition: all .3s ease-out;
@@ -427,7 +423,7 @@ input:active+label {
 
 .buttonFormSignIn:hover {
     cursor: pointer;
-    color: #dd8d38;
+    color: #071357;
     background-position: left bottom;
 }
 
